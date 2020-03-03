@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="secondPrimary">#03AA6F</color>
+    <color name="secondAccent">#86DAF1</color>
+
+    <color name="thirdPrimary">#84E507</color>
+    <color name="thirdAccent">#9BF2E5</color>
+
+    <color name="fourthPrimary">#FC5921</color>
+    <color name="fourthAccent">#FD8F07</color>
+
+</resources>

@@ -1,0 +1,3 @@
+rootProject.name='MaterialDropdown'
+include ':materialdropdown'
+include ':app'

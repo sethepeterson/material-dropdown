@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App</string>
+
+    <string name="enable_states_button_text">TOGGLE ENABLE STATES</string>
+
+    <string name="dropdown_label_0">Dropdown 0</string>
+    <string name="dropdown_label_1">Dropdown 1</string>
+    <string name="dropdown_label_2">Dropdown 2</string>
+    <string name="dropdown_label_3">Dropdown 3</string>
+    <string name="dropdown_label_4">Dropdown 4</string>
+</resources>

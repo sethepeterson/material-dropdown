@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Enable states -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/toggle_enable_states_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/enable_states_button_text" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Dropdown 0 -->
+    <com.bluestem.materialdropdownview.MaterialDropdown
+        android:id="@+id/material_dropdown_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:label="@string/dropdown_label_0" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Dropdown 1 -->
+    <com.bluestem.materialdropdownview.MaterialDropdown
+        android:id="@+id/material_dropdown_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:label="@string/dropdown_label_1"
+
+        app:labelTextColor="@color/colorPrimary"
+        app:borderColor="@color/colorAccent"
+
+        app:disabledLabelTextColor="@color/colorAccent"
+        app:disabledBorderColor="@color/colorPrimary" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Dropdown 2 -->
+    <com.bluestem.materialdropdownview.MaterialDropdown
+        android:id="@+id/material_dropdown_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:label="@string/dropdown_label_2"
+
+        app:labelTextColor="@color/secondPrimary"
+        app:borderColor="@color/secondAccent"
+
+        app:disabledLabelTextColor="@color/secondAccent"
+        app:disabledBorderColor="@color/secondPrimary" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Dropdown 3 -->
+    <com.bluestem.materialdropdownview.MaterialDropdown
+        android:id="@+id/material_dropdown_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:label="@string/dropdown_label_3"
+
+        app:labelTextColor="@color/thirdPrimary"
+        app:borderColor="@color/thirdAccent"
+
+        app:disabledLabelTextColor="@color/thirdAccent"
+        app:disabledBorderColor="@color/thirdPrimary" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Dropdown 4 -->
+    <com.bluestem.materialdropdownview.MaterialDropdown
+        android:id="@+id/material_dropdown_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:label="@string/dropdown_label_4"
+
+        app:labelTextColor="@color/fourthPrimary"
+        app:borderColor="@color/fourthAccent"
+
+        app:disabledLabelTextColor="@color/fourthAccent"
+        app:disabledBorderColor="@color/fourthPrimary" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
